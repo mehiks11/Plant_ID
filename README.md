@@ -20,7 +20,7 @@ This project is based in basic image classification project design built to use 
 - [This folder](https://github.com/mehiks11/Plant_ID/tree/master/AppStuff) holds all the code and fie that holds uploaded images to run through the app.
 
 
-## Model Building & Code
+### Model Building & Code
 - [This notebook](https://github.com/mehiks11/Plant_ID/blob/master/Code/Data%20Management%20--%20Splitting%20data%20(1).ipynb) holds the code for initial data management, including creating folder directories for train/validation/test split.
 - [This notebook](https://github.com/mehiks11/Plant_ID/blob/master/Code/Initial%20Modeling%20(1)%20--%20Simple%20Model.ipynb) holds data for intial baseline modeling of a simple Neural network model.
 - [This notebook](https://github.com/mehiks11/Plant_ID/blob/master/Code/Modeling%20-%20Baseline%20Model%20%2B%20Modifications%20(1).ipynb) holds the code for further modeling and modifications.
