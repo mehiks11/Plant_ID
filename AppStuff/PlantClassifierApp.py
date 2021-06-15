@@ -2,10 +2,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image, ImageOps
+import tensorflow as tf
 import keras
 import numpy as np
 from keras.models import model_from_json
-import tensorflow as tf
+
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing.image import ImageDataGenerator
 
@@ -132,7 +133,6 @@ with col1:
 with col2:
     st.markdown("* Arjun Plant")
     st.image(arjun,width=200) 
-
 
 st.markdown("**Follow the directions below to test me!**")
 st.text("Upload an image of a plant leaf you suspect might be one of the 11 plants above. ")
